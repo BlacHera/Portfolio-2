@@ -1,0 +1,124 @@
+
+body {
+  background-color: #230e24;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar Styles */
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+nav a:hover,
+nav li.active a {
+  color: #CCA34D;
+}
+
+.card {
+  background: rgba(244, 242, 244, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(8px);
+  width: 450px;
+  height: 250px;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  text-align: center;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+  margin-left: 100px;
+  position: relative;
+    top: 100px;
+    left: 100px;
+
+}
+
+.container {
+  padding: 10px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+h1 {
+  font-size: 24px;
+  font-family: "Playfair Display", serif;
+  color: #230e24;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.container {
+  padding: 10px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+
+  }
+
+
+
+.btn {
+padding: 12px 25px;
+  background: #CCA34D;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  margin-right: 20px;
+}
+
+.btn:hover {
+  background: white;
+}
+
+.social-icons {
+display: flex;
+  gap: 30px;
+  margin-left: auto;
+}
+
+.social-link {
+  font-size: 20px;
+  color: #CCA34D;
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: white;
+}
