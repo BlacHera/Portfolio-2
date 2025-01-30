@@ -5,7 +5,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* Navbar Styles */
 nav {
   padding: 20px 0;
 }
@@ -33,7 +32,7 @@ nav li.active a {
 }
 
 .card {
-  background: rgba(244, 242, 244, 0.5);
+  background: rgba(244, 242, 244, 0.2);
   padding: 20px;
   border-radius: 10px;
   backdrop-filter: blur(8px);
@@ -42,12 +41,12 @@ nav li.active a {
   display: flex;
   align-items: left;
   justify-content: left;
-  text-align: center;
+  text-align: left;
   box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
-  margin-left: 100px;
+  margin-left: 80px;
   position: relative;
-    top: 100px;
-    left: 100px;
+    top: 80px;
+    left: 80px;
 
 }
 
@@ -71,6 +70,7 @@ h2 {
   font-size: 24px;
   margin-bottom: 20px;
   color: white;
+  text-align: left;
 }
 
 .container {
@@ -89,8 +89,6 @@ p {
   margin-top: 20px;
 
   }
-
-
 
 .btn {
 padding: 12px 25px;
@@ -122,3 +120,40 @@ display: flex;
 .social-link:hover {
   color: white;
 }
+
+.heading{
+  text-align: center;
+    margin-top: 150px;
+    margin-left: 80px;
+  }
+  
+    .row {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(2, auto);
+      gap: 10px;
+      padding: 10px;
+      background: rgba(244, 242, 244, 0.0);
+      width: fit-content;
+      margin-left: 100px;
+      border-radius: 10px;
+    }
+  
+    .col {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      background: transparent;
+    }
+  
+        .col i {
+          font-size: 50px;
+      
+        }
+       .col img{
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          margin-left: 20px;
+        }
