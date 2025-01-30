@@ -1,6 +1,6 @@
 
 body {
-  background-color: #230e24;
+  background-color: #200a21;
   color: white;
   font-family: "Poppins", sans-serif;
 }
@@ -79,7 +79,7 @@ h2 {
 
 p {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: normal;
   color: white;
 }
 
@@ -157,3 +157,37 @@ display: flex;
           border-radius: 50%;
           margin-left: 20px;
         }
+
+.footer {
+margin-top: 50px;
+ }
+
+.p{
+    text-align: center;
+    font-size: 10px;;
+ }
+
+ footer .email-link {
+   text-decoration: none;
+   color: #CCA34D;
+   font-size: 18px;
+   margin-top: 50px;
+   margin-bottom: 0;
+ }
+
+ footer .email-link:hover {
+   color: white;
+ }
+
+ footer .social-links a {
+   color: #CCA34D;
+   padding: 10px 14px;
+   border-radius: 50%;
+   font-size: 18px;
+   transition: all 100ms ease-in-out;
+ }
+
+ footer .social-links a:hover {
+   color: white;
+   background: var(--branding-color);
+ }
