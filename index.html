@@ -8,7 +8,7 @@
       name="description"
       content="Phyllis Selinam Ampo is a front-end developer transitioning into cloud computing, based in Madrid, Spain."
     />
-    <title>Phyllis Selinam Ampo | Front-End Developer & Cloud Enthusiast</title>
+    <title>Phyllis Selinam Ampo | Portfolio</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -27,17 +27,19 @@
   </head>
   <body>
     <div class="container">
-      <nav class="d-flex justify-content-between">
+      <nav class="d-flex justify-content-between" aria-label="Main Navigation">
         <a href="/">
           <img
             src="images/Logo.png"
             class="logo d-none d-md-block"
             alt="Selinam logo"
+            loading="lazy"
           />
           <img
             src="images/logo-small.png"
             class="logo d-block d-md-none"
             alt="Selinam logo"
+            loading="lazy"
           />
         </a>
         <ul>
@@ -73,10 +75,10 @@
               ><i class="fab fa-linkedin"></i
             ></a>
             <a href="https://github.com/BlacHera" class="social-link"
-              ><i class="fab fa-github"></i
+              ><i class="fab fa-github" aria-label="GitHub Profile"></i
             ></a>
             <a href="https://twitter.com/selly_nam" class="social-link"
-              ><i class="fab fa-twitter"></i
+              ><i class="fa-brands fa-twitter" aria-label="Twiiter Profile"></i
             ></a>
           </div>
         </div>
@@ -133,25 +135,31 @@
       <div class="works-img">
         <div class="row">
           <div class="col">
-            <img
-              src="./images/shopping.png"
-              alt="Project 1"
-              class="project-img"
-            />
+            <a href="works.html">
+              <img
+                src="./images/shopping.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </a>
           </div>
           <div class="col">
-            <img
-              src="./images/weather.jpg"
-              alt="Project 2"
-              class="project-img"
-            />
+            <a href="works.html">
+              <img
+                src="./images/weather.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </a>
           </div>
           <div class="col">
-            <img
-              src="./images/shopping.png"
-              alt="Project 3"
-              class="project-img"
-            />
+            <a href="works.html">
+              <img
+                src="./images/shopping.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </a>
           </div>
         </div>
       </div>
@@ -177,12 +185,8 @@
         >
           <i class="fab fa-instagram" aria-hidden="true"></i>
         </a>
-        <a
-          href="https://twitter.com/selly_nam"
-          target="_blank"
-          title="Twitter profile"
-        >
-          <i class="fab fa-twitter" aria-hidden="true"></i>
+        <a href="https://twitter.com/selly_nam" class="social-link">
+          <i class="fa-brands fa-twitter" aria-label="Twitter Profile"></i>
         </a>
       </div>
       <p class="text-center mb-0">
