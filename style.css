@@ -257,6 +257,7 @@ margin-top: 100px;
  .about-card h2,
  .about-card p {
    color: white;
+  text-align: justify;
  }
 
  .profile-pic {
