@@ -8,15 +8,22 @@
       name="description"
       content="Portfolio of projects by Phyllis Selinam Ampo"
     />
-    <title>Phyllis Selinam Ampo | Front-End Developer & Cloud Enthusiast</title>
+    <title>Phyllis Selinam Ampo | My Works</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/febe3f5115.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,35 +34,56 @@
   </head>
   <body class="work-page">
     <div class="container">
-      <nav class="d-flex justify-content-between" aria-label="Main navigation">
-        <a href="/">
-          <img
-            src="images/Logo.png"
-            class="logo d-none d-md-block"
-            alt="Selinam logo"
-            loading="lazy"
-          />
-          <img
-            src="images/logo-small.png"
-            class="logo d-block d-md-none"
-            alt="Selinam logo"
-            loading="lazy"
-          />
-        </a>
-        <ul>
-          <li>
-            <a href="index.html" title="Homepage"> Home </a>
-          </li>
-          <li>
-            <a href="about.html" title="About Phyllis"> About </a>
-          </li>
-          <li class="active">
-            <a href="/" title="Phyllis' Work"> Works </a>
-          </li>
-          <li>
-            <a href="contact.html" title="Phyllis' Contact"> Contact </a>
-          </li>
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container">
+          <a class="navbar-brand" href="/">
+            <img
+              src="images/Logo.png"
+              class="logo d-none d-md-block"
+              alt="Selinam logo"
+              loading="lazy"
+            />
+            <img
+              src="images/logo-small.png"
+              class="logo d-block d-md-none"
+              alt="Selinam logo"
+              loading="lazy"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="/" title="Homepage">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" title="About Phyllis"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="works.html" title="Phyllis' Work"
+                  >Works</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html" title="Phyllis' Contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </div>
     <div class="project-section">
