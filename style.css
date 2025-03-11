@@ -2,13 +2,9 @@
 body {
 background: url('./images/Background3.png') no-repeat center center fixed;
   background-size: cover;
-  /* Cover the entire viewport */
   background-position: center;
-  /* Center the image */
   background-repeat: no-repeat;
-  /* No tiling */
   background-attachment: fixed;
-  /* Fixed on scroll */
   color: white;
   font-family: "Poppins", sans-serif;
 }
@@ -147,8 +143,8 @@ padding: 12px 25px;
 
 .social-icons {
 display: flex;
-  gap: 30px;
-  margin-left: auto;
+gap: 30px;
+margin-left: 30px;
 }
 
 .social-link {
@@ -175,8 +171,7 @@ display: flex;
       padding: 5px;
       background: rgba(244, 242, 244, 0.0);
       width: fit-content;
-      margin-left: auto;
-        margin-right: auto;
+      margin-left: 40px;
       border-radius: 10px;
     }
   
@@ -197,6 +192,17 @@ display: flex;
           border-radius: 50%;
           margin-left: 20px;
         }
+
+.works-img img {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  margin-left: 30px;
+  border-radius: 0 !important;
+}
 
 .footer {
 margin-top: 100px;
@@ -275,7 +281,7 @@ margin-top: 100px;
 
 .project-section p {
   font-size: 18px;
-  color: #f0f0f0;
+  color: #e09e1a;
   max-width: 600px;
   margin: 0 auto 30px;
 }
@@ -318,7 +324,7 @@ margin-top: 100px;
 
 .card-text p {
   font-size: 14px;
-  color: #000000;
+  color: #e09e1a;
   margin: 10px 0;
 }
 
